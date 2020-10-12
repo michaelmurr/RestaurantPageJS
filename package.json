@@ -1,0 +1,23 @@
+{
+  "name": "restaurantpagejs",
+  "version": "1.0.0",
+  "description": "Part of theodinproject.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelmurr/RestaurantPageJS.git"
+  },
+  "author": "Michael Murr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelmurr/RestaurantPageJS/issues"
+  },
+  "homepage": "https://github.com/michaelmurr/RestaurantPageJS#readme",
+  "devDependencies": {
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}
