@@ -22,7 +22,7 @@
 
         #navbar{
             overflow: hidden;
-            background-color: #404854;
+            background-color: brown;
         }
         #navbar a{
             float: left;
@@ -45,11 +45,13 @@
 
 
         img{
+            overflow: hidden;
             width: 100%;
+            box-shadow: 5px 5px brown;
         }
         div#title{
             position: absolute;
-            top: 25%;
+            top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
             text-shadow: 5px 5px darkslategrey;
@@ -57,17 +59,41 @@
         div h1{
             text-decoration: underline;
         }
-        div h3{
+        div h4{
             position: absolute;
             top: -20%;
         }
 
+        hr{
+            width: 30%;
+            border: 1px solid gray;
+        }
+
+        .section1{
+            position: absolute;
+            width: 40%;
+            text-align: center;
+            left: 30%;
+           
+        }
+
+        .section2{
+            position: absolute;
+            width: 40%;
+            text-align: center;
+            top: 100%;
+            left: 30%;
+        }
     </style>
     <script src="main.js"></script>
 </head>
 <body style="margin: 0;">
     <div id="content">
         <header>
+            <div id="title">
+                <h4>The delicious</h4>
+                <h1>Coffee Experience</h1>
+            </div>
             <div id="navbar" class="sticky">
                 <nav>
                     <a href="#home">Home</a>
@@ -75,15 +101,19 @@
                     <a href="#contact">Contact Us</a>
                 </nav>
             </div>
-            <img src="restaurant.jpg" alt="webpage banner">
-    
-            <div id="title">
-                <h3>The delicious</h3>
-                <h1>Coffee Experience</h1>
-            </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam dolorum inventore iusto cum, distinctio harum rerum deserunt magni delectus molestiae asperiores qui, voluptatibus laborum sed fugiat libero nulla quos quam explicabo facilis, ipsum incidunt. Nulla, quo. Corrupti dignissimos incidunt consequatur neque deserunt molestias suscipit commodi impedit dolor laudantium nihil voluptates ullam, rem provident quod. Voluptate vero voluptatibus illo eos architecto voluptates, a, ducimus facilis dolore quasi veniam, totam neque velit ipsam eaque ipsum consequuntur iste. Consequuntur incidunt eaque officiis, alias reprehenderit distinctio cum quis dignissimos possimus, quam consectetur quod deleniti numquam laboriosam repellat exercitationem corporis repudiandae qui at fugit dolores. Cum dolorum, ipsum saepe nihil voluptatum in quae esse itaque est voluptas. Assumenda, quibusdam. Reiciendis mollitia aspernatur ullam omnis excepturi. Maxime repudiandae ab autem numquam adipisci, error ut aut commodi ipsa nam alias assumenda? Odio minus natus quisquam dolor inventore. Quibusdam quidem quam amet officia est. Id, doloremque suscipit. Beatae, dolores aperiam quam illum nam laudantium error autem illo omnis nisi maiores voluptas dignissimos asperiores id aliquid? Ad iure culpa commodi, omnis laudantium repellat debitis at consequuntur, doloribus, deserunt autem. Nobis aliquam magni dolorem debitis quidem cupiditate dolore tempore, corrupti, quam ipsum sit amet iure ut! Enim voluptatem dicta, amet sint voluptate possimus nobis recusandae vel corporis! Illum expedita omnis obcaecati. Veritatis, vel at. Laboriosam aliquid quae delectus quos commodi quam rerum unde sed consequuntur consectetur suscipit incidunt temporibus laudantium, facere earum corporis sunt dolore odit amet possimus id placeat eum esse excepturi. Dolor possimus dicta corporis temporibus ipsam rerum aliquid animi nemo dolorem neque sunt est enim a recusandae, perferendis voluptatum voluptate porro asperiores nisi, expedita voluptas odit laboriosam nulla totam? Culpa dicta necessitatibus at suscipit deserunt ex voluptatibus vitae quam explicabo unde consequatur qui sed, id quos odit magni repellendus cumque porro asperiores dolor. Eius officia totam repellat.</p>
-
+            <img src="Coffee.jpg" alt="webpage banner">
         </header>
+        <section class="section1">
+            <h3>Who are we?</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae corrupti, iure earum quos voluptate tenetur mollitia repudiandae vel ipsam voluptatum natus odit officiis omnis numquam deleniti fugit hic provident necessitatibus?</p>
+            <hr>
+        </section>
+
+        <section class="section2">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, fugiat. Sit, maxime dolore! Illo asperiores ex, magnam libero obcaecati cum hic consectetur nisi, nobis eius harum. Nostrum nulla ut voluptas!</p>
+        </section>
+        
     </div>
 </body>
 </html>
